@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: auto;
+}
+body{
+        background-image: url(https://e1.pxfuel.com/desktop-wallpaper/856/722/desktop-wallpaper-red-casino-dice-mix-casino-3d.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.contenedor{
+    width: 90%;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+}
+#botonInstrucciones {
+    width: 100px; 
+    height: 100px; 
+    background-image: url('/imagenes/coin-img.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    color: white; 
+    cursor: pointer;
+    text-align: center; 
+    font-size: 10px;
+}
+#instrucciones{
+    display: none;
+    align-items: end;
+    size: 20px;
+    background-color: rgba(0, 26, 0, 0.705);
+    color: white;
+    background-image: url('/imagenes/modal-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ins{
+    font-size: large;
+}
+.apuestaJugar{
+    font-size:larger;
+}
+.btn{
+    display: inline-block;
+    background-color: red;
+    border-radius: 2px;
+    color: white;
+}
